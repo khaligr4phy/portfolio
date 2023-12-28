@@ -1,0 +1,128 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+  margin-bottom: 50px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.upperTitle {
+  margin-top: -20px;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  color: midnightblue;
+}
+.creative {
+  color: limegreen;
+}
+
+.logo {
+  position: relative;
+  z-index: 2;
+  width: 200px;
+  margin-bottom: -40px;
+}
+
+.title-img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: 5px solid limegreen;
+  box-shadow: 10px 5px 15px rgb(187, 248, 217);
+}
+
+footer {
+  color: midnightblue;
+  text-align: right;
+}
+
+.card {
+  width: 45%;
+}
+
+.card img {
+  float: left;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+hr {
+  border: 3px solid;
+  color: limegreen;
+}
+
+.line1 {
+  width: 42%;
+  margin-left: 0;
+  margin-top: -80px;
+  color: limegreen;
+  border: 5px solid;
+}
+
+span {
+  position: relative;
+  z-index: 5;
+}
+
+.behind {
+  position: relative;
+  z-index: -1;
+}
+
+/* responsive design starts here */
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: left;
+  }
+ 
+  .card img {
+    display: inline;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.line1 {
+  width: 74%;
+  margin-left: 0;
+  margin-top: -58px;
+  color: limegreen;
+  border: 5px solid;
+  border: 4px solid blue;
+}
+
+}
